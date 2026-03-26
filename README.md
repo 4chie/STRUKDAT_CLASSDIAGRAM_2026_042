@@ -36,7 +36,7 @@ Semua atribut di setiap class dideklarasikan private sehingga tidak bisa diakses
 'Kendaraan' dibuat sebagai abstract class yang tidak bisa dibuat objeknya secara langsung. Metode 'hitungBiaya()' dideklarasikan abstract tanpa isi, sehingga setiap child class wajib mengisi implementasinya sendiri sesuai jenisnya.
 
 - Inheritance
-'MobilGokart extends Kendaraan' — class MobilGokart mewarisi semua atribut dan method dari Kendaraan seperti `merek`, `tahun`, dan 'tampilInfo()' tanpa perlu menulis ulang.
+'MobilGokart extends Kendaraan' — class MobilGokart mewarisi semua atribut dan method dari Kendaraan seperti 'merek', 'tahun', dan 'tampilInfo()' tanpa perlu menulis ulang.
 
 - Polymorphism
 Objek 'MobilGokart' disimpan ke dalam array bertipe 'Kendaraan[]', sehingga ketika 'tampilInfo()' dan 'hitungBiaya()' dipanggil lewat loop, Java secara otomatis menjalankan versi method milik 'MobilGokart'.
@@ -46,4 +46,4 @@ Objek 'MobilGokart' disimpan ke dalam array bertipe 'Kendaraan[]', sehingga keti
 Keunikan yang digunakan dalam sistem ini mencakup:
 
 - Tarif Otomatis: Biaya dihitung otomatis berdasarkan kategori (Junior Rp2.000/menit, Pro Rp5.000/menit)
-- Status Real-time: Boolean `dipakai` mencegah satu gokart dipakai dua orang sekaligus
+- Status Real-time: Boolean 'dipakai' mencegah satu gokart dipakai dua orang sekaligus
