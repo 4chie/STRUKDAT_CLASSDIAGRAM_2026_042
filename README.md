@@ -29,16 +29,16 @@ Output yang dihasilkan dari Sistem Gokart ini adalah sebagai berikut:
 
 ## 5. Prinsip OOP yang Diterapkan
 
-- Encapsulation
+- `Encapsulation`
 Semua atribut di setiap class dideklarasikan private sehingga tidak bisa diakses langsung dari luar class. Akses hanya bisa dilakukan melalui method getter seperti 'getMerek()' dan 'getNama()'.
 
-- Abstraction
+- `Abstraction`
 'Kendaraan' dibuat sebagai abstract class yang tidak bisa dibuat objeknya secara langsung. Metode 'hitungBiaya()' dideklarasikan abstract tanpa isi, sehingga setiap child class wajib mengisi implementasinya sendiri sesuai jenisnya.
 
-- Inheritance
+- `Inheritance`
 'MobilGokart extends Kendaraan' — class MobilGokart mewarisi semua atribut dan method dari Kendaraan seperti 'merek', 'tahun', dan 'tampilInfo()' tanpa perlu menulis ulang.
 
-- Polymorphism
+- `Polymorphism`
 Objek 'MobilGokart' disimpan ke dalam array bertipe 'Kendaraan[]', sehingga ketika 'tampilInfo()' dan 'hitungBiaya()' dipanggil lewat loop, Java secara otomatis menjalankan versi method milik 'MobilGokart'.
 
 ## 6. Keunikan
